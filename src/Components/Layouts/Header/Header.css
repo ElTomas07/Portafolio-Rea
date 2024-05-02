@@ -1,0 +1,9 @@
+.header-page{
+    width: 30vw;
+    height: 100vh;
+    background-color: #39a900;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
