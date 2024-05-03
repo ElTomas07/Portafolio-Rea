@@ -1,0 +1,13 @@
+.social-media{
+    display: flex;
+    margin-top: 2rem;
+    background-color: #1614149a;
+    border-radius: 7px;
+}
+
+.image{
+    color: #ffff;
+    margin: 1rem;
+    
+}
+

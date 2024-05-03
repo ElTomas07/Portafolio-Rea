@@ -1,11 +1,5 @@
 import React from 'react'
+import './ItemNavbar.css'
 
-export const ItemNavbar = ({children}) => {
-  return (
-    <li>
-        <a href="">
-            {children}
-        </a>
-    </li>
-  )
-}
+export const ItemNavbar = ({content, style, href}) => <li><a href={href} className={style}>{content}</a></li>
+
